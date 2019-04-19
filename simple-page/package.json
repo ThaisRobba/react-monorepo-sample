@@ -1,0 +1,19 @@
+{
+  "name": "simple-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn dev && yarn serve",
+    "dev": "parcel public/index.html  --open",
+    "build": "parcel build src/index.js --experimental-scope-hoisting",
+    "build:html": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0"
+  }
+}
