@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "yarn dev && yarn serve",
-    "dev": "parcel public/index.html  --open",
+    "start": "yarn serve",
+    "serve": "parcel public/index.html  --port 3001 --open",
     "build": "parcel build src/index.js --experimental-scope-hoisting",
     "build:html": "parcel build public/index.html"
   },
